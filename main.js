@@ -3,7 +3,29 @@ let promedio;
 let suma= 0;
 
 let nombreAlumno = prompt ("Ingrese Nombre del Alumno a promediar: ");
+if (nombreAlumno === null) {
+
+    alert("Ingrese nuevmente un Nombre");
+    nombreAlumno = prompt ("Ingrese Nombre del Alumno a promediar: ");
+
+}else {
+
+    alert("correcto");
+
+}
 let apellidoAlumno = prompt ("Ingrese Apellido del Alumno a promediar: ");
+
+if (apellidoAlumno === null) {
+
+    alert("Ingrese nuevmente un Apellido");
+    apellidoAlumno = prompt ("Ingrese Apellido del Alumno a promediar: ");
+
+}else {
+
+    alert("correcto");
+
+}
+
 
 
 function Alumno (nombreAlumno, apellidoAlumno) {
